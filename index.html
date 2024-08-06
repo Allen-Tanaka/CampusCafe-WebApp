@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +11,21 @@
     <!--CSS-->
 
 </head>
+
 <body>
+
 <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-dark small border-bottom shadow-sm fixed-top custom-nav" style="--bs-bg-opacity: .9;">
         <div class="container">
 
         <!--Logo-img-->
-            <a href="index.html" style="--bs-bg-opacity: .9;">
+            <a href="index.html" class="navbar-brand pb-2">
                 <img style="width: 45px;" src="src/img/logo_white.png" alt="">
             </a>
         <!--Logo-img-->
 
         <!--Brand-name-->
-            <a href="index.html" class="navbar-brand pb-0">
+            <a href="index.html" class="navbar-brand pb-0" >
                 <span class="brand-style brand-gradient">
                     Campus Cafeteria
                 </span>
@@ -122,8 +125,181 @@
     </nav>
 <!--Navbar-->
 
+<!--Banner-->
+    <section class="banner-holder pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="banner-content text-center text-white my-5 pt-5 pb-5">
+                        <div>
+                            <h1 class="banner-text-header">Welcome to Campus Cafeteria!<br></h1>
+                            <p><i>"Where Every Meal Feels Like Home."</i></p>
+                            <p>
+                                You can order online to collect, request for delivery or visit us on-site so that you
+                                Indulge in a Variety of Delicious Dishes and Enjoy a Memorable Dining Experience!<br><br>
+                                Register with us to make orders and receive all our exclusive deals.
+                            </p>
+                        </div>
+                        <a 
+                            href="#" 
+                            class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#subscribe-modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                            </svg>
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Banner-->
+
+<!--Explore-Menu-->
+    <div class="container my-5">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button type="button" class="btn btn-dark btn-lg">Explore Menu</button>
+        </div><br>
+        <div class="row justify-content-md-center">
+            <!-- Burgers -->
+            <div class="col-md-4 d-flex">
+                <div class="card mb-4 flex-fill" style="max-width: 320px;">
+                    <img src="src/img/burgers.jpeg" class="card-img-top" alt="Burgers">
+                    <div class="card-body">
+                        <h5 class="card-title">Burgers</h5>
+                        <ul class="list-group list-group-flush">
+                            <!-- Individual item with ingredients and price -->
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Beef Cheese Burger & Chips</span>
+                                    <span>$45.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Beef, Cheese, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Double Beef Cheese Burger & Chips</span>
+                                    <span>$57.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Beef, Cheese, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Chicken Burger & Chips</span>
+                                    <span>$42.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Beef Burger</span>
+                                    <span>$32.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Beef</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Chicken -->
+            <div class="col-md-4 d-flex">
+                <div class="card mb-4 flex-fill" style="max-width: 320px;">
+                    <img src="src/img/chicken.jpeg" class="card-img-top" alt="Chicken">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Full Chicken & Chips</span>
+                                    <span>$119.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Half Chicken & Chips</span>
+                                    <span>$69.90</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Quarter Chicken & Chips</span>
+                                    <span>$39.90</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken, Chips</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Wings (4)</span>
+                                    <span>$30.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken Wings, Spices</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Home Cooked Meals -->
+            <div class="col-md-4 d-flex">
+                <div class="card mb-4 flex-fill" style="max-width: 320px;">
+                    <img src="src/img/home_cooked_meals.jpg" class="card-img-top" alt="Home Cooked Meals">
+                    <div class="card-body">
+                        <h5 class="card-title">Home Cooked Meals</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Beef Stew & Pap/Rice</span>
+                                    <span>$56.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Beef, Stew, Pap/Rice</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Chicken Stew & Pap/Rice</span>
+                                    <span>$59.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Chicken, Stew, Pap/Rice</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Steak & Pap</span>
+                                    <span>$60.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Steak, Pap</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>Boerewors & Pap</span>
+                                    <span>$40.00</span>
+                                </div>
+                                <small class="text-muted">Ingredients: Boerewors, Pap</small>
+                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Explore-Menu-->
+
 <!--JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <!--JavaScript-->
 </body>
+
 </html>

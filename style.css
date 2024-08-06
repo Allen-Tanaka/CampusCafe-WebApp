@@ -1,3 +1,40 @@
 .profile{
     color: white;
 }
+.brand-gradient{
+    background: #ffffff;
+    background: radial-gradient(circle farthest-corner at center center, #EFEFEF 0%, #BBBDAF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@font-face {
+    font-family: Concrete;
+    src: url(../CampusCafe-WebApp-1/src/fonts/concrete.ttf);
+}
+.navbar-brand{
+    font-family: Concrete;
+}
+
+.navbar-toggler{
+    border-color: #BBBDAF;
+}
+.banner-holder, .main-page-header{
+    background-image: url(../../src/img/banner-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    overlay: auto;
+}
+
+/*banner text font*/
+@font-face {
+    font-family: Brielle;
+    src: url(../CampusCafe-WebApp-1/src/fonts/Brielle-Regular.ttf);
+}
+.banner-text-header{
+    font-family: Brielle;
+}
+
+.custom-nav{
+    backdrop-filter: blur(8px);
+}
