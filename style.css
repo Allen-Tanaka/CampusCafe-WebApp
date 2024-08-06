@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Concrete;
-    src: url(../CampusCafe-WebApp-1/src/fonts/concrete.ttf);
+    src: url(src/fonts/concrete.ttf);
 }
 .navbar-brand{
     font-family: Concrete;
@@ -20,7 +20,7 @@
     border-color: #BBBDAF;
 }
 .banner-holder, .main-page-header{
-    background-image: url(../../src/img/banner-2.jpg);
+    background-image: url(src/img/banner-2.jpg);
     background-size: cover;
     background-position: bottom;
     overlay: auto;
@@ -29,7 +29,7 @@
 /*banner text font*/
 @font-face {
     font-family: Brielle;
-    src: url(../CampusCafe-WebApp-1/src/fonts/Brielle-Regular.ttf);
+    src: url(src/fonts/Brielle-Regular.ttf);
 }
 .banner-text-header{
     font-family: Brielle;
@@ -38,3 +38,33 @@
 .custom-nav{
     backdrop-filter: blur(8px);
 }
+
+/*Footer*/
+.footer {
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .fab {
+    font-size: 20px;
+}
+/*Footer*/
