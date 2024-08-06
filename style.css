@@ -23,7 +23,8 @@
     background-image: url(src/img/banner-2.jpg);
     background-size: cover;
     background-position: bottom;
-    overlay: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*banner text font*/
@@ -77,15 +78,21 @@
 }
 
 /* Banner Text Adjustments for Readability */
+
 .banner-text-header {
     font-family: Brielle;
     font-size: 36px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
+.banner-text{
+    background: rgba(0, 0, 0, 0.5);
+}
 .banner-content p {
     font-size: 18px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 /* Card Layout Adjustments */
@@ -141,3 +148,8 @@
 }
 
 /*amended-styling*/
+
+.banner-holder {
+    height: 600px;
+}
+
