@@ -61,3 +61,34 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'none';
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const cartIcon = document.querySelector('.cart-icon');
+    const cartCount = document.querySelector('.cart-count');
+    let itemCount = 0;
+
+    // Handle adding the item to the cart
+    const addToCartBtn = document.getElementById('add-to-cart-btn');
+    addToCartBtn.addEventListener('click', () => {
+        const quantity = parseInt(document.getElementById('quantity').value);
+        cartCount.textContent = parseInt(cartCount.textContent) + quantity;
+        modal.style.display = 'none';
+    });
+
+    // Show modal for customization
+    document.querySelectorAll('.bag-it-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            document.getElementById('customize-modal').style.display = 'flex';
+        });
+    });
+
+    // Close modal on click outside or on the close button
+    document.querySelector('.close-btn').addEventListener('click', () => {
+        document.getElementById('customize-modal').style.display = 'none';
+    });
+    window.addEventListener('click', (event) => {
+        if (event.target === document.getElementById('customize-modal')) {
+            document.getElementById('customize-modal').style.display = 'none';
+        }
+    });
+});
