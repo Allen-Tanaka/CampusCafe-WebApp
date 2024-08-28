@@ -100,9 +100,7 @@
 }
 
 /* Additional Adjustments */
-.container {
-    padding: 20px;
-}
+
 
 /*amended-styling*/
 
@@ -114,7 +112,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #343a40;
     color: #ffffff;
 }
@@ -154,7 +152,6 @@
 .navbar .input-group input[type="search"] {
     height: 100%;
     padding: 5px 10px;
-    border: none;
     border-radius: 4px 0 0 4px;
 }
 
@@ -200,7 +197,6 @@
 }
 
 .navbar-toggler {
-    border: none;
     padding: 5px 10px;
 }
 
@@ -212,10 +208,6 @@
 
     .navbar-brand {
         flex-grow: 1;
-    }
-
-    .navbar-brand img {
-        max-height: 30px; /* Adjust for smaller screens */
     }
 
     .navbar-toggler {
