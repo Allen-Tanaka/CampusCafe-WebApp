@@ -8,6 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/order.css">
     <!--CSS-->
 
 </head>
@@ -157,205 +158,152 @@
 </section>
 <!--Banner-->
 
-<!--Explore-Menu-->
-    <div class="container my-2">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-            <button type="button" class="btn btn-dark btn-lg">Explore Menu</button>
-        </div><br>
-        <div class="row g-3 justify-content-md-center">
-            <!-- Burgers -->
-            <div class="col-md-4 d-flex">
-                <div class="card mb-4 flex-fill" style="max-width: 320px;">
-                    <img src="src/img/burgers.jpeg" class="card-img-top" alt="Burgers">
-                    <div class="card-body">
-                        <h5 class="card-title">Burgers</h5>
-                        <ul class="list-group list-group-flush">
-                            <!-- Individual item with ingredients and price -->
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Beef Cheese Burger & Chips</span>
-                                    <span>R45.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Beef, Cheese, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Double Beef Cheese Burger & Chips</span>
-                                    <span>R57.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Beef, Cheese, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Chicken Burger & Chips</span>
-                                    <span>R42.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Beef Burger</span>
-                                    <span>R32.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Beef</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                        </ul>
-                        <img src="src/img/chips.png" class="card-img-top" alt="Chips">
-                        <div class="card-body">
-                            <h5 class="card-title">Chips</h5>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <div class="d-flex justify-content-between">
-                                        <span>Small</span>
-                                        <span>20.00</span>
-                                    </div>
-                                    <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="d-flex justify-content-between">
-                                        <span>Medium</span>
-                                        <span>R28.00</span>
-                                    </div>
-                                    <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="d-flex justify-content-between">
-                                        <span>Large</span>
-                                        <span>R39.00</span>
-                                    </div>
-                                    <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                                </li>
-                            </ul>
+<!--Menu-->
+<section>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button type="button" class="btn btn-dark btn-lg">Explore Menu</button>
+    </div><br>
+    <div class="container">
+        <!-- Burger Card -->
+        <div class="card">
+            <div class="card-img">
+                <img src="src/img/burgers.jpeg" alt="Burgers">
+            </div>
+            <div class="card-body">
+                <h3>Burgers</h3>
+                <ul class="menu-items">
+                    <li>
+                        <div class="item-details">
+                            <h4>Beef Cheese Burger & Chips</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R45.00</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Chicken -->
-            <div class="col-md-4 d-flex">
-                <div class="card mb-4 flex-fill" style="max-width: 320px;">
-                    <img src="src/img/chicken.jpeg" class="card-img-top" alt="Chicken">
-                    <div class="card-body">
-                        <h5 class="card-title">Chicken</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Full Chicken & Chips</span>
-                                    <span>R119.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Half Chicken & Chips</span>
-                                    <span>R69.90</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Quarter Chicken & Chips</span>
-                                    <span>R39.90</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken, Chips</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Wings (4)</span>
-                                    <span>R30.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken Wings, Spices</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Home Cooked Meals -->
-            <div class="col-md-4 d-flex">
-                <div class="card mb-4 flex-fill" style="max-width: 320px;">
-                    <img src="src/img/home_cooked_meals.jpg" class="card-img-top" alt="Home Cooked Meals">
-                    <div class="card-body">
-                        <h5 class="card-title">Home Cooked Meals</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Beef Stew & Pap/Rice</span>
-                                    <span>R56.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Beef, Stew, Pap/Rice</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Chicken Stew & Pap/Rice</span>
-                                    <span>R59.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Chicken, Stew, Pap/Rice</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Steak & Pap</span>
-                                    <span>R60.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Steak, Pap</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Boerewors & Pap</span>
-                                    <span>R40.00</span>
-                                </div>
-                                <small class="text-muted">Ingredients: Boerewors, Pap</small>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!--Chips-->
-            <div class="col-md-4 d-flex">
-                <div class="card mb-4 flex-fill" style="max-width: 320px;">
-                    <img src="src/img/chips.png" class="card-img-top" alt="Chips">
-                    <div class="card-body">
-                        <h5 class="card-title">Chips</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Small</span>
-                                    <span>20.00</span>
-                                </div>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Medium</span>
-                                    <span>R28.00</span>
-                                </div>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <span>Large</span>
-                                    <span>R39.00</span>
-                                </div>
-                                <button class="btn btn-sm btn-primary mt-2">Add to Cart</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                        <p>Description: A juicy beef patty topped with cheese, lettuce, and tomato.</p>
+                        <p>Ingredients: Beef, Cheese, Lettuce, Tomato, Bun, Chips.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                    <li>
+                        <div class="item-details">
+                            <h4>Double Beef Cheese Burger & Chips</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R57.00</p>
+                            </div>
+                        </div>
+                        <p>Description: Two beef patties with double cheese, lettuce, and tomato.</p>
+                        <p>Ingredients: Beef, Double Cheese, Lettuce, Tomato, Bun, Chips.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                </ul>
             </div>
         </div>
+    
+        <!-- Chicken Card -->
+        <div class="card">
+            <div class="card-img">
+                <img src="src/img/chicken.jpeg" alt="Chicken">
+            </div>
+            <div class="card-body">
+                <h3>Chicken</h3>
+                <ul class="menu-items">
+                    <li>
+                        <div class="item-details">
+                            <h4>Full Chicken & Chips</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R119.00</p>
+                            </div>
+                        </div>
+                        <p>Description: A full roasted chicken served with crispy chips.</p>
+                        <p>Ingredients: Chicken, Chips, Spices.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                    <li>
+                        <div class="item-details">
+                            <h4>Half Chicken & Chips</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R69.90</p>
+                            </div>
+                        </div>
+                        <p>Description: Half of our signature roasted chicken with chips.</p>
+                        <p>Ingredients: Chicken, Chips, Spices.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Snacks Card -->
+        <div class="card">
+            <div class="card-img">
+                <img src="src/img/snacks.jpeg" alt="Snacks">
+            </div>
+            <div class="card-body">
+                <h3>Snacks</h3>
+                <ul class="menu-items">
+                    <li>
+                        <div class="item-details">
+                            <h4>AmaGwinya</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R3.00</p>
+                            </div>
+                        </div>
+                        <p>Description: Traditional deep-fried dough balls, crispy and soft.</p>
+                        <p>Ingredients: Flour, Yeast, Water, Salt.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                    <li>
+                        <div class="item-details">
+                            <h4>Russian</h4>
+                            <div class="price">
+                                <span>From</span>
+                                <p>R13.00</p>
+                            </div>
+                        </div>
+                        <p>Description: A savory sausage made with a mix of meats and spices.</p>
+                        <p>Ingredients: Beef, Pork, Spices.</p>
+                        <button class="btn bag-it-btn">Bag-It</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
     </div>
-<!--Explore-Menu-->
-
+    
+    <!-- Modal for customizing the order -->
+    <div id="customize-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Customize Your Order</h2>
+            <form id="customize-form">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1">
+    
+                <label for="remove-ingredients">Remove Ingredients:</label>
+                <div id="remove-ingredients">
+                    <label><input type="checkbox" name="ingredient" value="Onions"> Onions</label>
+                    <label><input type="checkbox" name="ingredient" value="Tomatoes"> Tomatoes</label>
+                    <label><input type="checkbox" name="ingredient" value="Lettuce"> Lettuce</label>
+                </div>
+    
+                <label for="add-ingredients">Add Ingredients (Extra Cost):</label>
+                <div id="add-ingredients">
+                    <label><input type="checkbox" name="extra" value="Extra Cheese"> Extra Cheese ($2.00)</label>
+                    <label><input type="checkbox" name="extra" value="Extra Sauce"> Extra Sauce ($1.00)</label>
+                </div>
+    
+                <label><input type="checkbox" name="serviettes" value="Serviettes"> Add Serviettes (Free)</label>
+    
+                <button type="button" id="add-to-cart-btn" class="btn">Add to Cart</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--Menu-->
 
 <!--Footer-->
 <footer class="footer text-center text-white bg-dark py-4">
@@ -402,6 +350,7 @@
 
 <!--JavaScript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/js/app.js"></script>
 <!--JavaScript-->
 </body>
 
